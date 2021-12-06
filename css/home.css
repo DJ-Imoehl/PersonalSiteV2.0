@@ -1,0 +1,8 @@
+.toolbar {
+    opacity: .8;
+    position:fixed;
+    z-index:5;
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
