@@ -1,24 +1,57 @@
+.body {
+    background-color: #112D32;
+}
+
 .photo-section{
-    height: 200px;
+    min-height: 650px;
+}
+
+.home-main-photo{
+    width: 100%;
+    overflow: hidden;
 }
 
 .content-section{
-    width: 60%;
-    border: 2px black solid;
     border-radius: 20px;
     padding: 10px;
-    background-color: ghostwhite;
+    background-color: #4F4A41;
     margin: 10px;
+    color: ghostwhite;
 }
 
 .left{
-    padding-left: 25px;
+    padding-left: 45px;
     transform: translateX(-30px);
 }
 
 .right{
-    float: right;
-    padding-right: 25px;
+    margin-right: 0;
+    margin-left: auto;
+}
+.content-section.right{
+    padding-right: 45px;
     text-align: right;
     transform: translateX(30px);
+}
+
+.content-section .text{
+    width: 70%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.content-section .photo{
+    width: 100%;
+    background-color: ghostwhite;
+    border-radius: 10%;
+}
+
+.left-line{
+    border-left: 3px black solid;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
 }
