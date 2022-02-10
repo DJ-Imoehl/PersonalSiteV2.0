@@ -55,3 +55,26 @@
     display: block;
     padding-bottom: 100%;
 }
+
+.footer{
+    background-color: #254E58;
+    color: #ffffff;
+    min-height: 100px;
+    width: 100%;
+}
+
+.footer-content{
+    width: 50%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: gray;
+}
