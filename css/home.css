@@ -3,7 +3,6 @@
 }
 
 .photo-section{
-    min-height: 600px;
     max-height: 800px;
     overflow: hidden;
 }
@@ -17,6 +16,7 @@
     border-radius: 20px;
     padding: 20px;
     background-color: #1B4D3E;
+    background: linear-gradient(40deg, rgba(23,64,52,1) 0%, rgba(27,77,62,1) 100%);
     margin-top: 30px !important;
     color: ghostwhite;
     width: 80%;
@@ -38,13 +38,12 @@
 
 .content-section.right{
     padding-right: 45px;
-    text-align: right;
     transform: translateX(30px);
+    background: linear-gradient(40deg, rgba(27,77,62,1) 0%, rgba(23,64,52,1) 100%);
 }
 
 .content-section .text{
     width: 90%;
-    text-align: justify;
     text-justify: inter-word;
     font-size: 1.5em;
 }
