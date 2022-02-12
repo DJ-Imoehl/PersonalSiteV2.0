@@ -1,0 +1,19 @@
+.body {
+    background-color: #112D32;
+    color: ghostwhite;
+}
+
+.content-section{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #1B4D3E;
+    background: linear-gradient(40deg, rgba(23,64,52,1) 0%, rgba(27,77,62,1) 100%);
+    margin-top: 30px !important;
+    color: ghostwhite;
+    width: 80%;
+}
+
+.toolbar-spacing{
+    margin-top: 150px;
+    display: block;
+}

@@ -1,0 +1,31 @@
+.photo-container{
+    overflow: hidden;
+    background-image: url(../photos/BackgroundPhoto.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+}
+
+.about-photo{
+    width: 100%;
+    min-width: 600px;
+    border-radius: 20px;
+}
+
+.text-container{
+
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.main-about-section{
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
