@@ -16,3 +16,34 @@
 .toolbar-spacing{
     margin-top: 8rem;
 }
+
+.photo{
+    width: 100%;
+    height: 100%;
+}
+
+.right{
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.left{
+    padding-left: 100px;
+    transform: translateX(-30px);
+}
+
+.right-padding{
+    padding-right: 40px;
+}
+
+.content-section.right{
+    padding-right: 45px;
+    transform: translateX(30px);
+    background: linear-gradient(40deg, rgba(27,77,62,1) 0%, rgba(23,64,52,1) 100%);
+}
+
+.content-section .text{
+    width: 90%;
+    text-justify: inter-word;
+    font-size: 1.5em;
+}
