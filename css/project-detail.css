@@ -1,0 +1,30 @@
+.title{
+    text-align: center;
+    margin: 20px;
+}
+
+.title-text{
+    font-size: 3rem;
+}
+
+.content-row{
+    margin-top: 20px !important;
+}
+
+.content-image-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.content-image{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.content-text-section{
+    font-size: 1.5em;
+}
