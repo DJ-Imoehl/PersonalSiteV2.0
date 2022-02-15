@@ -1,3 +1,15 @@
+a:link, a:visited {
+    color: ghostwhite;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.project-title{
+    color: ghostwhite;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .square{
     position:relative;
     overflow:hidden;
@@ -16,4 +28,13 @@
 
 .text{
     margin-top: 20px;
+}
+
+.title{
+    text-align: center;
+    margin: 20px;
+}
+
+.title-text{
+    font-size: 3rem;
 }
