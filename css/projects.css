@@ -1,9 +1,3 @@
-a:link, a:visited {
-    color: ghostwhite;
-    text-decoration: none;
-    cursor: auto;
-}
-
 .project-title{
     color: ghostwhite;
     cursor: pointer;
