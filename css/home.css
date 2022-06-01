@@ -1,34 +1,38 @@
-.photo-section{
+.photo-section {
     max-height: 800px;
     overflow: hidden;
 }
 
-.home-main-photo{
+.home-main-photo {
     width: 100%;
     overflow: hidden;
 }
 
-.left{
+.left {
     padding-left: 100px;
     transform: translateX(-30px);
 }
 
-.right{
+.right {
     margin-right: 0;
     margin-left: auto;
 }
 
-.right-padding{
+.right-padding {
     padding-right: 40px;
 }
 
-.content-section.right{
-    padding-right: 45px;
-    transform: translateX(30px);
-    background: linear-gradient(40deg, rgba(27,77,62,1) 0%, rgba(23,64,52,1) 100%);
+.content-section {
+    box-shadow: 1px 1px 3px #111111;
 }
 
-.content-section .text{
+.content-section.right {
+    padding-right: 45px;
+    transform: translateX(30px);
+    background: linear-gradient(40deg, rgba(27, 77, 62, 1) 0%, rgba(23, 64, 52, 1) 100%);
+}
+
+.content-section .text {
     width: 90%;
     text-justify: inter-word;
     font-size: 1.5em;
@@ -38,17 +42,17 @@ h2 {
     font-size: 2em;
 }
 
-.left-line{
+.left-line {
     border-left: 3px black solid;
 }
 
-.square{
-    position:relative;
-    overflow:hidden;
-    padding-bottom:80%;
+.square {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 80%;
 }
 
-.square img{
+.square img {
     position: absolute;
     max-width: 100%;
     max-height: 100%;
@@ -63,5 +67,13 @@ h2 {
     justify-content: center;
     align-items: center;
     height: 200px;
-    border: 3px solid green; 
-  }
+    border: 3px solid green;
+}
+
+.one-percent-logo {
+    width: 150px;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(25%);
+    transform: translateY(25%);
+}
