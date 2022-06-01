@@ -1,11 +1,15 @@
 .photo-section {
     max-height: 800px;
+    min-height: 300px;
     overflow: hidden;
 }
 
 .home-main-photo {
     width: 100%;
     overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .left {
@@ -24,6 +28,7 @@
 
 .content-section {
     box-shadow: 1px 1px 3px #111111;
+    width: 70%
 }
 
 .content-section.right {
@@ -35,7 +40,12 @@
 .content-section .text {
     width: 90%;
     text-justify: inter-word;
-    font-size: 1.5em;
+    font-size: 1.25em;
+    margin: 10px;
+}
+
+.content-section-heading {
+    margin-left: 10px;
 }
 
 h2 {
@@ -56,18 +66,11 @@ h2 {
     position: absolute;
     max-width: 100%;
     max-height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
     border-radius: 20px;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    border: 3px solid green;
+    margin: auto;
 }
 
 .one-percent-logo {
