@@ -2,6 +2,8 @@
     max-height: 800px;
     min-height: 300px;
     overflow: hidden;
+    text-align: center;
+    position: relative;
 }
 
 .home-main-photo {
@@ -10,6 +12,25 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.home-photo-text-container {
+    padding: 20px;
+    background: rgba(1,1,1,.7);
+    border-radius: 20px;
+    z-index: 0;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-photo-text h1 {
+    font-size: calc(16px + 2.5vw);
+}
+
+.home-photo-text h3 {
+    font-size: calc(12px + 1.5vw);
 }
 
 .left {
@@ -40,12 +61,13 @@
 .content-section .text {
     width: 90%;
     text-justify: inter-word;
-    font-size: 1.25em;
+    font-size: calc(12px + 0.5vw);
     margin: 10px;
 }
 
 .content-section-heading {
     margin-left: 10px;
+    font-size: calc(24px + 0.7vw);
 }
 
 h2 {
@@ -60,6 +82,8 @@ h2 {
     position: relative;
     overflow: hidden;
     padding-bottom: 80%;
+    top:50%;
+    transform:translate(0, -50%);
 }
 
 .square img {
