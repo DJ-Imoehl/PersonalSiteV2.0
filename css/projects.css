@@ -5,9 +5,11 @@
 }
 
 .square{
-    position:relative;
-    overflow:hidden;
-    padding-bottom:80%;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 80%;
+    top:50%;
+    transform:translate(0, -50%);
 }
 
 .square img{
@@ -31,4 +33,8 @@
 
 .title-text{
     font-size: 3rem;
+}
+
+.photo {
+    object-fit: cover;
 }

@@ -33,16 +33,6 @@
     font-size: calc(12px + 1.5vw);
 }
 
-.left {
-    padding-left: 100px;
-    transform: translateX(-30px);
-}
-
-.right {
-    margin-right: 0;
-    margin-left: auto;
-}
-
 .right-padding {
     padding-right: 40px;
 }
@@ -50,24 +40,6 @@
 .content-section {
     box-shadow: 1px 1px 3px #111111;
     width: 70%
-}
-
-.content-section.right {
-    padding-right: 45px;
-    transform: translateX(30px);
-    background: linear-gradient(40deg, rgba(27, 77, 62, 1) 0%, rgba(23, 64, 52, 1) 100%);
-}
-
-.content-section .text {
-    width: 90%;
-    text-justify: inter-word;
-    font-size: calc(12px + 0.5vw);
-    margin: 10px;
-}
-
-.content-section-heading {
-    margin-left: 10px;
-    font-size: calc(24px + 0.7vw);
 }
 
 h2 {
@@ -91,10 +63,6 @@ h2 {
     max-width: 100%;
     max-height: 100%;
     border-radius: 20px;
-}
-
-.center {
-    margin: auto;
 }
 
 .one-percent-logo {
