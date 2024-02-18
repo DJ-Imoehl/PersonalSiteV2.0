@@ -33,10 +33,6 @@
     font-size: calc(12px + 1.5vw);
 }
 
-.right-padding {
-    padding-right: 40px;
-}
-
 .content-section {
     box-shadow: 1px 1px 3px #111111;
     width: 70%
@@ -65,10 +61,8 @@ h2 {
     border-radius: 20px;
 }
 
-.one-percent-logo {
-    width: 150px;
-    margin: 0;
-    top: 50%;
-    -ms-transform: translateY(25%);
-    transform: translateY(25%);
-}
+@media (min-width: 992px) {
+    .right-padding-large-screens {
+        padding-right: 40px;
+    }
+ }
