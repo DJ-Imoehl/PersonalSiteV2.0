@@ -21,7 +21,7 @@
 .content-section .text{
     width: 90%;
     text-justify: inter-word;
-    font-size: calc(12px + 0.5vw);
+    font-size: calc(16px + 0.5vw);
     margin: 10px;
 }
 
